@@ -1,3 +1,4 @@
+/*padding and width stays specified value*/
 * {
     box-sizing: border-box;
   }
@@ -5,7 +6,7 @@
   body {
     background-color: #c9d2fc;
   }
-  
+  /*position values: absolute, relative, sticky, fixed*/
   .cat-head {
     position: absolute;
     right: 0;
@@ -19,7 +20,7 @@
     border: 1px solid #000;
     border-radius: 46%;
   }
-  
+  /*transform values: rotate(), scale(), skew(), matrix()*/
   .cat-left-ear {
     position: absolute;
     top: -26px;
